@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background: #cce7ff;
+}
+.test1 {
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+.test2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.test3 {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.products {
+    padding: 20px;
+}
+.product {
+    text-align: center;
+    margin-bottom: 15px;   
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.product-card {
+    background: white;
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    height: 250px;
+}
+button {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    padding: px5 10px;
+    margin-top: 5px;
+    
+}
+#contact {
+    padding: 20px;
+    text-align: left;
+}    
+#contact input,textarea{
+    display: block;
+    margin: 10px;
+    text-align: left;
+}
+#contact button {
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
