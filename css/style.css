@@ -26,6 +26,13 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+.welcome {
+    padding: 80px;
+
+}
+.P {
+    padding:  0 0 40px 0 ;
+}
 .products {
     padding: 20px;
 }
